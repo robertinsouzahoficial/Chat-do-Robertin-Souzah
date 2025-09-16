@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import Header from './components/Header';
+import Header from './components/Header.tsx';
 import Sidebar from './components/Sidebar';
 import ChatBubble from './components/ChatBubble';
 import MessageInput from './components/MessageInput';
