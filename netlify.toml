@@ -1,7 +1,7 @@
 [build]
 publish = "dist"
 command = "npm run build"
-branch = "refs/heads/main}"
+branch = "refs/heads/main"
 
 [[redirects]]
   from = "/*"
@@ -10,4 +10,5 @@ branch = "refs/heads/main}"
   
 [build.environment]
 NODE_VERSION = "20"
+
 
